@@ -1,0 +1,68 @@
+@font-face {
+  src: url(fonts/norse.otf);
+  font-family: norse;
+}
+
+@font-face {
+  src: url(fonts/norseBold.otf);
+  font-family: norseBold;
+}
+
+@font-face {
+  src: url(fonts/vanthianRagnarok.ttf);
+  font-family: vanthianRagnarok;
+}
+
+body {
+  background-color: #120b00;
+  color: #8B8D7A;
+  font-family: norse;
+}
+
+/** HEADER **/
+nav {
+  background-color: transparent;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+a.navbar-brand {
+  color: #8B8D7A;
+  font-family: norseBold;
+  font-size: 4em;
+  padding: 15px 0px 15px 0px;
+}
+
+.links {
+  position: absolute;
+  right: 0;
+}
+
+.links a {
+  color: #8B8D7A;
+  font-size: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  vertical-align: middle;
+}
+
+.links img {
+  width: auto;
+  height: auto;
+}
+
+.links a:hover {
+  text-decoration: none;
+  color: #8B8D7A;
+}
+
+/** FOOTER **/
+footer .footerSection {
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
+}

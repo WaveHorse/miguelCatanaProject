@@ -1,18 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/angular.min.js"></script>
-    <script src="js/app.js"></script>
-    <title>Miguel Catana</title>
-  </head>
-  <body>
-    <h1>AND THUS, IT BEGINS</h1>
-  </body>
+<html lang="en" ng-app="indexPage">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/app.js"></script>
+  <title>Miguel Catana</title>
+</head>
+
+<body>
+  <!-- HEADER-->
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+      <!-- <img src="" width="50" height="50"> -->
+      Miguel Catana
+    </a>
+    <div class="links">
+      <a href="#">About</a>
+      <a href="#">Contacts</a>
+      <a class="linkedin" href="https://www.linkedin.com/in/miguelcatana/">
+        <img src="images/inIcon.png" width="50" height="50">
+      </a>
+    </div>
+  </nav>
+
+  <!-- CONTENT -->
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footerSection" ng-controller="FooterController">
+      <p>Copyright (C) {{copyYear}} Miguel Catana</p>
+    </div>
+  </footer>
+</body>
+
 </html>
